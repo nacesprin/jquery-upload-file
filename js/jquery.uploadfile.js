@@ -48,7 +48,7 @@
             nestedForms: true,
             showDownload: false,
             onLoad: function (obj) {},
-            onSelect: function (files) {
+            onSelect: function (files, pd) {
                 return true;
             },
             onSubmit: function (files, xhr) {},
